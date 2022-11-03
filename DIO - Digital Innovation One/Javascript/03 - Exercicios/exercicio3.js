@@ -12,23 +12,23 @@
 
 */
 
-const aSerPago = 100;
+const precoEtiqueta = 100;
 const condicaoDePagameno = 4;
 
 if (condicaoDePagameno === 1) {
-    const valorTotalAPagar = aSerPago * 0.9
+    const valorTotalAPagar = precoEtiqueta * 0.9
     console.log('Deve ser pago: ');
     console.log(valorTotalAPagar)
 } else if (condicaoDePagameno === 2) {
-    const valorTotalAPagar = aSerPago * 0.85
+    const valorTotalAPagar = precoEtiqueta * 0.85
     console.log('Deve ser pago: ');
     console.log(valorTotalAPagar)
 } else if (condicaoDePagameno === 3) {
-    const valorTotalAPagar = aSerPago * 1
+    const valorTotalAPagar = precoEtiqueta * 1
     console.log('Deve ser pago: ');
     console.log(valorTotalAPagar)
 } else {
-    const valorTotalAPagar = aSerPago * 1.1
+    const valorTotalAPagar = precoEtiqueta * 1.1
     console.log('Deve ser pago: ');
     console.log(valorTotalAPagar)
 }
