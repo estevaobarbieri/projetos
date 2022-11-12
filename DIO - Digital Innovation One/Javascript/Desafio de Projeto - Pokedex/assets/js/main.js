@@ -34,7 +34,6 @@ function loadPokemonItens(offset, limit){
 
 loadPokemonItens(offset, limit)
 
-
 loadMoreButton.addEventListener('click',()=>{
     // debugger
 
