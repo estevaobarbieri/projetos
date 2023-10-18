@@ -5,7 +5,7 @@ let derrotas = 1
 let nivelRankeadas = calculadoraRankeadas(vitorias, derrotas)
 let saldoTotal = saldoVitorias(vitorias, derrotas)
 
-console.log(`O Heroi tem de saldo de ${saldoTotal} está no nivel de ${nivelRankeadas}`)
+console.log(`O Heroi tem de saldo de ${saldoTotal} está no nivel de ${nivelRankeadas} `)
 
 
 
